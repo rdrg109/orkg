@@ -1,6 +1,7 @@
-;; TODO: Index icons considering hierarchies of classes. Specially, "subclass of"
-
+(require 'posframe)
 (require 'org-roam)
+
+;; TODO: Index icons considering hierarchies of classes. Specially, "subclass of"
 
 (defvar orkg-class-p (lambda (node) t)
   "Store a lambda function that returns t when a given node is a
