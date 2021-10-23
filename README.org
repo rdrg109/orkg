@@ -5,3 +5,14 @@
 This package contains a set of functions that are useful for structuring information in a similar way that [[https://www.wikidata.org/wiki/Wikidata:Main_Page][Wikidata]] use. If you don't know what [[https://www.wikidata.org/wiki/Wikidata:Main_Page][Wikidata]] is, you can read [[https://www.wikidata.org/wiki/Wikidata:Introduction][this]]. In simple terms, every concept (from fruits, keyboard layouts to planets, animals, operating systems, etc.) is considered an entity and the characteristics of an entity are stored as key-value pairs. For example, here's the Wikidata entity for [[https://www.wikidata.org/wiki/Q10817602][pineapple]], [[https://www.wikidata.org/wiki/Q159][Russia]], [[https://www.wikidata.org/wiki/Q1252773][GNU Emacs]] and [[https://www.wikidata.org/wiki/Q18968627][GNU Guix]].
 
 Because [[https://www.orgroam.com/][Org mode]] support key-value pairs, we can structure some information by using that approach.
+
+* Todo
+
++ Meta
+  + [ ] Allow user to create custom queries for getting lists of things (e.g. answered questions whose context was Emacs, unanswered questions whose context was Nyxt, completed ideas in the context of systemc configuration)
++ Humans
+  + [ ] Create buffer showing birthdays of all the humans in the knowledge graph
+  + [ ] Show birthdays of humans in Org Agenda
++ Websites
+  + [ ] Handle search formatter URLs (a.k.a. search engines) with =read-string= and user custom functions
+
